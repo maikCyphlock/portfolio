@@ -1,0 +1,34 @@
+.is-hoverable{
+    transition: all 500ms  ease;
+  
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    
+    background: #363636;
+}
+.is-custom-dark-color{
+    color: #272d3b !important;
+}
+.is-custom-dark-color > strong{
+    color: #303d5e !important;
+}
+.is-custom-first-color > * {
+    color: #dfeef1 !important;
+}
+
+.is-custom-first-color > h1{
+    color: #77bdff !important;
+}
+.is-custom-first-color >p > strong{
+    color: #77bdff !important;
+}
+.is-primary-bg{
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6ded8d, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #6ded9e, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}

@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-maikcyphlok",
+  "version": "1.0.0",
+  "description": "this is my web portfolio to show my dev's skill ",
+  "main": "index.js",
+  "author": "maikcyphlock / maikolaguilar656@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "dependencies": {
+    "gsap": "^3.6.1"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-babel": "^2.1.7",
+    "snowpack": "^3.5.4"
+  }
+}
